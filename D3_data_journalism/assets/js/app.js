@@ -199,6 +199,7 @@ d3.csv('assets/data/data.csv').then(function(stateData) {
         .attr("x", 0 - (chartHeight / 2))
         .attr("dy", "1em")
         .classed("axis-text", true)
+        .classed('active', true)
         .text("Median Age");
     
     // update tooltip function
